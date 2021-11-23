@@ -1,0 +1,74 @@
+div {
+    font-style: arial;
+    border-radius: 8px;
+}
+
+.title {
+    padding-left: 40px;
+    color: rgb(240, 238, 238)
+}
+
+body {
+    background-image: url(images/fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+li {
+    display: block;
+    position: relative;
+    width: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+ul.sous_menu {
+    display: none;
+    margin-left: 10px;
+
+}
+
+li:hover {
+    color: rgb(0, 255, 255);
+    background-color: rgba(0, 0, 255, 0.2);
+
+}
+a:hover{
+    color: rgb(0, 255, 255);
+}
+
+li:hover>ul.sous_menu {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 70%;
+
+}
+
+a {
+    display: block;
+    /*padding: 10px;*/
+    color: rgb(255, 255, 255);
+    background-color: rgba(211, 211, 211, 0.5);
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+.icon {
+    padding-top: 2px;
+    padding-right: 3px;
+    max-width: 20px;
+    float: left;
+    padding-left: 5px;
+
+}
+
+.sous_icon {
+    float: right;
+    padding-top: 3px;
+}
